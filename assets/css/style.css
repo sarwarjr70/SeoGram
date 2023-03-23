@@ -1,0 +1,242 @@
+body, h1, h2, h3, h4, p{
+	margin: 0px;
+	padding: 0px;
+}
+.continer{
+	width: 60%;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+.row{
+	display: flex;
+}
+li{
+	list-style: none;
+}
+
+.justify-content{
+	justify-content: space-between;
+}
+.justify-content2{
+	justify-content: space-around;
+}
+nav a.logo{
+	font-family: "Work Sans", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.9);
+	padding-top: 25px;
+}
+nav a span{
+	color: #6c55f9;
+}
+.navbar-section li {
+	margin-left: 5px;
+	padding-left: 25px;
+	padding-top: 0px;
+}
+.navbar-section li a{
+	font-family: "Work Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #645f88;
+	display: inline-block;
+}
+.navbar-section li a.a{
+	margin-top: 10px;
+}
+.navbar-section li a:hover{
+	color: #6c55f9;
+}
+.navbar-section li a.home{
+	color: #6c55f9;
+}
+.navbar-section li a.analytics{
+	color: #fff;
+	background-color: #8F7EF6;
+	padding: 8px 24px;
+	border-color: transparent;
+	border-radius: 5px;
+	display: inline-block;
+}
+.navbar-section li a.analytics:hover{
+	background-color: #645F88;
+}
+.ab-section{
+	margin-top: 20px;
+	padding: 100px;
+	background-color: #F6F5FC;
+	width: 50%;
+}
+section .article{
+	flex: 1 1 200%;
+}
+section .article h2{
+	font-family: "Work Sans", sans-serif;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 500;
+	color: #645f88;
+	margin-bottom: 20px;
+}
+section .article p{
+	font-family: "Work Sans", sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 400;
+	color: #8e8aad;
+	margin-bottom: 20px;
+}
+section .article a{
+	margin-top: 30px;
+	font-family: "Work Sans", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	background-color: #6c55f9;
+	color: #fff;
+	padding: 12px 28px;
+	border-radius: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+section .article a:hover{
+	background-color: #645F88;
+}
+section .article a i{
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 9px;
+}
+section .banner{
+	flex: 1 1 100%;
+}
+section .banner img{
+	min-height: 300px;
+	width: 100%;
+}
+.marketing-tool-section div img{
+	max-height: 100px;
+	max-width: 100px;
+	margin: 20px;
+}
+.marketing-tool-section div{
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #F6F5FC;
+	box-shadow:  2px 2px 5px .2px #aaaaaa;
+}
+.marketing-tool-section .right-side-mts{
+	margin-left: 10%;
+	margin-right: 5%;
+	text-align: center;
+}
+.marketing-tool-section .left-side-mts{
+	margin-right: 10%;
+	margin-left: 5%;
+	text-align: center;
+}
+.marketing-tool-section .mid-side-mts{
+	text-align: center;
+}
+.marketing-tool-section h2{
+	font-family: "Work Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #645f88;
+	margin-bottom: 15px;
+}
+.marketing-tool-section p{
+	font-family: "Work Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color:#898798;
+	margin-bottom: 10px;
+}
+.marketing-tool-section a{
+	font-family: "Work Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #fff;
+	background-color: #6C55F9;
+	margin-top: 10px;
+	padding: 8px 24px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.marketing-tool-section a:hover{
+	background-color: #645F88;
+}
+.about-us-section .text-scetion h1{
+	font-family: "Work Sans", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #898798;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+}
+.about-us-section .text-scetion h2{
+	font-family: "Work Sans", sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 38px;
+	color: #645f88;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.divider {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    width: 32px;
+    height: 3px;
+    border-radius: 40px;
+    background-color: #6C55F9;
+}
+.about-us-section{
+	margin-bottom: 60px;
+	margin-top: 30px;
+	padding: 30px;
+}
+.about-us-section .text-scetion p{
+	font-family: "Work Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #898798;
+	margin-bottom: 20px;
+}
+.about-us-section .text-scetion a{
+	font-family: "Work Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #ffffff;
+	background-color: #6C55F9;
+	margin-top: 10px;
+	padding: 8px 24px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.about-us-section .text-scetion a:hover{
+	background-color: #645F88;
+}
+.about-us-section .text-scetion{
+	margin-right: 30px;
+}
+.about-us-section .about_frame-section{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 60px;
+}
